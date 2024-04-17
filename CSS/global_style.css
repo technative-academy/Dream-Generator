@@ -12,25 +12,16 @@
 @import url(about/contact-form.css);
 
 :root {
-	--cta-bg: '#796eff';
-	--cta-text-color: '#F6F3FC';
-	--heading-text-color: '#35414b';
-	--body-text-color:'';
-	--bg-header:'';
-	--bg-footer:'';
-
+  --cta-bg: "#796eff";
+  --cta-text-color: "#F6F3FC";
+  --heading-text-color: "#35414b";
+  --body-text-color: "#4E5A65";
+  --bg-header: "#FBFAFE";
+  --bg-footer: "#1D2830";
 }
-
-
 
 /*
 example 
 h1 {
 	color: var(--cta-color);
 } */
-
-
-
-
-
-
