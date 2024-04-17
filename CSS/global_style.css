@@ -1,0 +1,36 @@
+@import url(footer.css);
+@import url(header.css);
+@import url(home/facts.css);
+@import url(home/hero.css);
+@import url(home/reviews.css);
+@import url(home/service.css);
+@import url(home/sign-up.css);
+@import url(home/sponsors.css);
+@import url(home/statictics.css);
+
+@import url(about/company-description.css);
+@import url(about/contact-form.css);
+
+:root {
+	--cta-bg: '#796eff';
+	--cta-text-color: '#F6F3FC';
+	--heading-text-color: '#35414b';
+	--body-text-color:'';
+	--bg-header:'';
+	--bg-footer:'';
+
+}
+
+
+
+/*
+example 
+h1 {
+	color: var(--cta-color);
+} */
+
+
+
+
+
+
