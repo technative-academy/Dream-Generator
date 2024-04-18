@@ -1,3 +1,4 @@
+
 @import url(footer.css);
 @import url(header.css);
 @import url(home/facts.css);
@@ -11,11 +12,13 @@
 @import url(about/company-description.css);
 @import url(about/contact-form.css);
 
+
 @font-face {
   font-family: "Inter";
   src: url("../assets/Inter/Inter-VariableFont_slnt\,wght.ttf")
     format("truetype");
 }
+
 
 :root {
   --cta-bg: #796eff;
@@ -103,12 +106,13 @@ ul {
 input {
   padding: 20px;
   border-radius: 2px;
-  border: 1px solid var(--cta-text-color);
+  border: 1px solid var(--body-text-color);
 }
 
-input::placeholder {
+
+/* input::placeholder {
   color: var(--cta-text-color);
-}
+} */
 
 a {
   text-decoration: none;
@@ -130,4 +134,10 @@ a:hover,
 a:active {
   text-decoration: none;
   color: var(--heading-text-color);
+}
+
+
+.logo{
+	height: 300px;
+
 }
