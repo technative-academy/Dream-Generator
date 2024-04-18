@@ -109,3 +109,15 @@ input {
 input::placeholder {
   color: var(--cta-text-color);
 }
+
+a {
+	text-decoration: none;
+	
+}
+
+
+
+a:visited { text-decoration: none; color:  var(--heading-text-color); }
+a:hover { text-decoration: none; color:  var(--heading-text-color);}
+a:focus { text-decoration: none; color:  var(--heading-text-color); }
+a:hover, a:active { text-decoration:none; color: var(--heading-text-color); }
