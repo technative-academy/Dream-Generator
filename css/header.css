@@ -1,0 +1,44 @@
+.nav-container-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  width: 150px;
+}
+
+.nav-container-desktop {
+  display: none;
+}
+
+/* desktop styling for logo and nav bar */
+@media (min-width: 768px) {
+  .nav-container-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .navbar-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+  }
+
+  .nav-container-mobile {
+    display: none;
+  }
+}
