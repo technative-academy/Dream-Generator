@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/Inter/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+}
+
 @import url(footer.css);
 @import url(header.css);
 @import url(home/facts.css);
@@ -12,16 +18,94 @@
 @import url(about/contact-form.css);
 
 :root {
-  --cta-bg: "#796eff";
-  --cta-text-color: "#F6F3FC";
-  --heading-text-color: "#35414b";
-  --body-text-color: "#4E5A65";
-  --bg-header: "#FBFAFE";
-  --bg-footer: "#1D2830";
+  --cta-bg: #796eff;
+  --cta-text-color: #f6f3fc;
+  --heading-text-color: #35414b;
+  --body-text-color: #4e5a65;
+  --bg-header: #fbfafe;
+  --bg-footer: #1d2830;
 }
 
-/*
-example 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter";
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+
+h1,
+h2,
+h3 {
+  color: var(--heading-text-color);
+}
+
 h1 {
-	color: var(--cta-color);
-} */
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  color: var(--body-text-color);
+}
+
+.btn {
+  background-color: var(--cta-bg);
+  color: var(--cta-text-color);
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+}
+
+.white-container {
+  background-color: var(--bg-header);
+}
+
+.gray-container {
+  background-color: var(--cta-text-color);
+}
+
+footer {
+  background-color: var(--bg-footer);
+  color: var(--cta-text-color);
+}
+
+.copyright p {
+  color: var(--cta-text-color);
+}
+
+img {
+  border-radius: 25px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+input {
+  padding: 20px;
+  border-radius: 2px;
+  border: 1px solid var(--cta-text-color);
+}
+
+input::placeholder {
+  color: var(--cta-text-color);
+}
