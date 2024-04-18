@@ -1,0 +1,49 @@
+.about-company{
+	
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+	text-align: left;
+	padding: 5%;
+}
+
+
+
+
+figure{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+figure img {
+	width:60%;
+	display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center the image horizontally */
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+
+
+.company-description{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	text-align: left;
+} 
+
+.company-description p {
+    text-align: left; /* Align the <p> elements to the left */
+}
+figcaption{
+	font-style: italic;
+}
+
+.company-description h2 {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+
