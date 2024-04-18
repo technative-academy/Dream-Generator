@@ -1,0 +1,110 @@
+.footer-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-desktop {
+  display: none;
+}
+
+.copyright,
+.socials {
+  text-align: center;
+}
+
+.footer-nav,
+.legal {
+  padding: 20px 35px 5px 35px;
+}
+
+summary {
+  font-weight: bold;
+}
+
+details > ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+hr {
+  opacity: 20%;
+}
+
+.copyright {
+  margin-bottom: 25px;
+}
+
+/* Media queries to hide mobile footer and display desktop footer */
+
+@media (min-width: 768px) {
+  .footer-mobile {
+    display: none;
+  }
+
+  .footer-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .top-footer,
+  .bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    line-height: 2;
+  }
+  .copyright,
+  .socials {
+    padding: 20px 35px 5px 35px;
+  }
+  .socials,
+  .legal {
+    text-align: end;
+  }
+}
+
+/* 
+  CSS For the arrow on the details/summary part 
+  Please avoid touching the code below
+*/
+
+details {
+  position: relative;
+  padding-right: 20px; /* Space for the arrow */
+}
+
+details > summary {
+  list-style: none; /* Remove the default arrow */
+  cursor: pointer;
+  outline: none; /* Optional: removes focus outline */
+}
+
+details > summary::before {
+  content: "\2193"; /* Custom arrow */
+  position: absolute;
+  right: 0; /* Position arrow on the right side */
+  top: 0; /* Align with the top of the summary */
+  font-size: 16px;
+  transition: transform 0.2s ease-in-out;
+}
+
+details[open] > summary::before {
+  transform: rotate(-180deg); /* Flip the arrow when details are open */
+}
+
+/* Add additional styling and responsiveness as needed */
+@media (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-nav,
+  .legal,
+  .socials {
+    flex: 1;
+  }
+}
