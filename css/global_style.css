@@ -34,14 +34,6 @@
 
 body {
   font-family: "Inter";
-  width: 80%;
-  margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-  body {
-    width: 100%;
-  }
 }
 
 h1,
@@ -111,13 +103,23 @@ input::placeholder {
 }
 
 a {
-	text-decoration: none;
-	
+  text-decoration: none;
 }
 
-
-
-a:visited { text-decoration: none; color:  var(--heading-text-color); }
-a:hover { text-decoration: none; color:  var(--heading-text-color);}
-a:focus { text-decoration: none; color:  var(--heading-text-color); }
-a:hover, a:active { text-decoration:none; color: var(--heading-text-color); }
+a:visited {
+  text-decoration: none;
+  color: var(--heading-text-color);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--heading-text-color);
+}
+a:focus {
+  text-decoration: none;
+  color: var(--heading-text-color);
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: var(--heading-text-color);
+}
