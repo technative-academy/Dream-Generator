@@ -18,18 +18,17 @@
   padding: 20px 35px 5px 35px;
 }
 
-summary {
+.footer-summary {
   font-weight: bold;
 }
-
-details > ul {
+.footer-list {
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-hr {
+.footer-hr {
   opacity: 20%;
 }
 
@@ -71,18 +70,18 @@ hr {
   Please avoid touching the code below
 */
 
-details {
+.footer-details {
   position: relative;
   padding-right: 20px; /* Space for the arrow */
 }
 
-details > summary {
+.footer-summary {
   list-style: none; /* Remove the default arrow */
   cursor: pointer;
   outline: none; /* Optional: removes focus outline */
 }
 
-details > summary::before {
+.footer-details > .footer-summary::before {
   content: "\2193"; /* Custom arrow */
   position: absolute;
   right: 0; /* Position arrow on the right side */
@@ -91,7 +90,7 @@ details > summary::before {
   transition: transform 0.2s ease-in-out;
 }
 
-details[open] > summary::before {
+.footer-details[open] > .footer-summary::before {
   transform: rotate(-180deg); /* Flip the arrow when details are open */
 }
 
