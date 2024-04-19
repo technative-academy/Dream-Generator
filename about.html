@@ -6,41 +6,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>About</title>
 	<link rel="stylesheet" href="css/global_style.css">
-	    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 	<div class="nav-container-desktop white-container">
 		<img class="logo" src="./assets/images/logo.png" />
 		<nav class="navbar">
-		  <ul class="navbar-link">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Products</a></li>
-		  </ul>
+			<ul class="navbar-link">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Products</a></li>
+			</ul>
 		</nav>
-	  </div>
-	  <div class="nav-container-mobile white-container">
+	</div>
+	<div class="nav-container-mobile white-container">
 		<img class="logo" src="./assets/images/logo.png" />
 		<details>
-		  <summary class="menu-title">
-			<i class="fa-solid fa-bars"></i>
-		  </summary>
-		  <nav class="navbar">
-			<ul class="navbar-link">
-			  <li><a href="#" class="navbar-item">Home</a></li>
-			  <li><a href="about.html" class="navbar-item">About</a></li>
-			  <li><a href="#" class="navbar-item">Products</a></li>
-			</ul>
-		  </nav>
+			<summary class="menu-title">
+				<i class="fa-solid fa-bars"></i>
+			</summary>
+			<nav class="navbar">
+				<ul class="navbar-link">
+					<li><a href="#" class="navbar-item">Home</a></li>
+					<li><a href="about.html" class="navbar-item">About</a></li>
+					<li><a href="#" class="navbar-item">Products</a></li>
+				</ul>
+			</nav>
 		</details>
-	  </div>
+	</div>
 	<div class="hero-container">
 		<h1>About us<o/h1> <p>Tag line</p>
 	</div>
@@ -93,74 +89,77 @@
 						<p>Email us on <a href="#">hello@blah.com</a> or enter ypur message here</p>
 						<label for="name">Name:</label><br>
 
-						<input type="text" name="name" id="name" placeholder="Place you name" required />
+						<input type="text" name="name" id="name" placeholder="Place you name" minlength="8"
+							maxlength="15" required />
 						<label for="email">Email:</label>
-						<input type="email" name="email" id="email" placeholder="Your email" required />
+						<input type="email" name="email" id="email" placeholder="Your email" minlength="8"
+							maxlength="15" required />
 						<label for="message">Message:</label>
-						<textarea id="message" name="message" rows="5" cols="33" input
-							placeholder="Your message"></textarea>
-						<button type="button" class="btn">Submit</button>
+						<textarea id="message" name="message" rows="10" cols="33" input
+							placeholder="Enter your message here"></textarea>
+						<button type="submit" class="btn">Submit</button>
 					</form>
 				</div>
 			</section>
 
-		</main>
-		<footer class="footer-mobile">
-      <div class="footer-nav">
-        <details class="footer-details">
-          <summary class="footer-summary">Company</summary>
-          <ul class="footer-list">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Products</li>
-          </ul>
-        </details>
-      </div>
-      <div class="legal">
-        <details class="footer-details">
-          <summary class="footer-summary">Legal</summary>
-          <ul class="footer-list">
-            <li>Cookies</li>
-            <li>Privacy</li>
-            <li>Terms of Services</li>
-          </ul>
-        </details>
-      </div>
-      <hr class="footer-hr" />
-      <div class="copyright">
-        <p>&copy2024 All right reserved</p>
-      </div>
-    </footer>
-    <footer class="footer-desktop">
-      <div class="top-footer">
-        <div class="footer-nav">
-          <ul>
-            <li><strong>Company</strong></li>
-            <li>About Us</li>
-            <li>Products</li>
-          </ul>
-        </div>
-        <div class="legal">
-          <ul>
-            <li><strong>Legal</strong></li>
-            <li>Cookies</li>
-            <li>Privacy</li>
-            <li>Terms of Services</li>
-          </ul>
-        </div>
-      </div>
-      <hr />
-      <div class="bottom-footer">
-        <div class="copyright">
-          <p>&copy;2024 All right reserved</p>
-        </div>
-        <div class="socials">
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-dribbble"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
-        </div>
-      </div>
-    </footer>
-  </body>
+	</main>
+	<footer class="footer-mobile">
+		<div class="footer-nav">
+			<details class="footer-details">
+				<summary class="footer-summary">Company</summary>
+				<ul class="footer-list">
+					<li>Home</li>
+					<li>About Us</li>
+					<li>Products</li>
+				</ul>
+			</details>
+		</div>
+		<div class="legal">
+			<details class="footer-details">
+				<summary class="footer-summary">Legal</summary>
+				<ul class="footer-list">
+					<li>Cookies</li>
+					<li>Privacy</li>
+					<li>Terms of Services</li>
+				</ul>
+			</details>
+		</div>
+		<hr class="footer-hr" />
+		<div class="copyright">
+			<p>&copy2024 All right reserved</p>
+		</div>
+	</footer>
+	<footer class="footer-desktop">
+		<div class="top-footer">
+			<div class="footer-nav">
+				<ul>
+					<li><strong>Company</strong></li>
+					<li>About Us</li>
+					<li>Products</li>
+				</ul>
+			</div>
+			<div class="legal">
+				<ul>
+					<li><strong>Legal</strong></li>
+					<li>Cookies</li>
+					<li>Privacy</li>
+					<li>Terms of Services</li>
+				</ul>
+			</div>
+		</div>
+		<hr />
+		<div class="bottom-footer">
+			<div class="copyright">
+				<p>&copy;2024 All right reserved</p>
+			</div>
+			<div class="socials">
+				<i class="fa-brands fa-instagram"></i>
+				<i class="fa-brands fa-dribbble"></i>
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-youtube"></i>
+			</div>
+		</div>
+	</footer>
+</body>
+
 </html>
