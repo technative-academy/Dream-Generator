@@ -10,9 +10,9 @@ An experience created by Kamila, Susannah and Elyas
 4. [Our process](#our-process)
 5. [Things we learnt](#things-we-learnt)
 6. [Our frustrations](#our-frustrations)
-7. [Justifcation] (#justifcation)
-8. [Examples] (#examples)
-9. [Contributors] (#contributors)
+7. [Justifcation](#justifcation)
+8. [Examples](#examples)
+9. [Contributors](#contributors)
 10. [License](#license)
 
 ## Description
