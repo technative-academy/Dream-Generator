@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="./css/global_style.css" />
-	<title>Dream Generator</title>
-	<!--Below is the CDN for font awesome-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<script src="/js/facts.js" defer></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global_style.css" />
+    <title>Dream Generator</title>
+    <!--Below is the CDN for font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Js files below -->
+    <script src="/js/facts.js" defer></script>
+    <script src="/js/tabs.js" defer></script>
+  </head>
 
   <body>
     <div class="nav-container-desktop white-container">
@@ -71,16 +76,57 @@
         </div>
       </section>
       <section class="services gray-container">
-        <!--This is the tab section: work together -->
+        <div class="display-services" id="display-services">
+          <div class="service-details service-details-aliens">
+            <img
+              src="./assets/images/tabs-images/aliens-tea.jpg"
+              alt="Aliens sipping tea"
+            />
+            <figcaption>Aliens sipping tea</figcaption>
+          </div>
+          <div class="service-details service-details-candy">
+            <img
+              src="./assets/images/tabs-images/candy-cane.jpg"
+              alt="Candy cane trail"
+            />
+            <figcaption>Candy cane trail</figcaption>
+          </div>
+          <div class="service-details service-details-dragon">
+            <img
+              src="./assets/images/tabs-images/dragon.jpg"
+              alt="Dinner with a dragon"
+            />
+            <figcaption>Dinner with a dragon</figcaption>
+          </div>
+          <div class="service-details service-details-spacerocket">
+            <img
+              src="./assets/images/tabs-images/spacerocket.jpg"
+              alt="spacerocket"
+            />
+            <figcaption>A journey through space</figcaption>
+          </div>
+        </div>
+        <div class="service-buttons">
+          <button class="services-buttons" id="aliens" value="aliens">
+            Tea with aliens!
+          </button>
+          <button class="services-buttons" id="candy" value="candy">
+            Candy Cane trail!
+          </button>
+          <button class="services-buttons" id="dragon" value="dragon">
+            Befriending a dragon
+          </button>
+          <button class="services-buttons" id="spacerocket" value="spacerocket">
+            An adventure through space!
+          </button>
+        </div>
       </section>
-
 
       <section class="fact-container">
         <h2 class="fact-header">Some facts about the company</h2>
 
         <div id="facts-display"></div>
       </section>
-
 
       <section class="sign-up-container gray-container">
         <div class="sign-up-info">

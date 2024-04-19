@@ -12,6 +12,8 @@
 @import url(about/contact-form.css);
 @import url(about/about-hero.css);
 
+@import url(home/tabs.css);
+
 @font-face {
   font-family: "Inter";
   src: url("../assets/Inter/Inter-VariableFont_slnt\,wght.ttf")

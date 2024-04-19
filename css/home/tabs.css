@@ -1,0 +1,60 @@
+.currently-selected-button {
+  background-color: var(--cta-bg);
+  color: var(--cta-text-color);
+}
+
+.service-details {
+  display: none;
+}
+
+.service-details > figcaption {
+  display: none;
+}
+
+.service-details > img {
+  border-radius: 20px;
+  display: block;
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.currently-selected-service {
+  display: flex;
+  flex-direction: column;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-buttons {
+  width: 100%;
+  margin-left: 0;
+  border: none;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .service-details > figcaption {
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+
+  .services {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .service-details > img {
+    height: 500px;
+    width: auto;
+  }
+}
