@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/global_style.css" />
+    <title>Dream Generator</title>
+    <!--Below is the CDN for font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Js files below -->
+  </head>
+
+  <body>
+    <div class="nav-container-desktop white-container">
+      <img class="logo" src="./assets/images/logo.png" />
+      <nav class="navbar">
+        <ul class="navbar-link">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="nav-container-mobile white-container">
+      <img class="logo" src="./assets/images/logo.png" />
+      <details>
+        <summary class="menu-title">
+          <i class="fa-solid fa-bars"></i>
+        </summary>
+        <nav class="navbar">
+          <ul class="navbar-link">
+            <li><a href="index.html" class="navbar-item">Home</a></li>
+            <li><a href="about.html" class="navbar-item">About</a></li>
+            <li><a href="products.html" class="navbar-item">Products</a></li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+
+    <div class="hero-container about-us-container">
+      <h1>Our Products</h1>
+      <p>Something about our products</p>
+    </div>
+    <main>
+      <section>
+        <h2>Find the products you're looking for</h2>
+        <input placeholder="Search products" />
+        <p></p>
+      </section>
+      <section class="product-container">
+        <div>
+          <img />
+          <h3>Product Title</h3>
+          <p>Description</p>
+          <p>Rating</p>
+          <p>Price</p>
+        </div>
+      </section>
+      <button class="btn">Show more</button>
+    </main>
+
+    <footer class="footer-mobile">
+      <div class="footer-nav">
+        <details class="footer-details">
+          <summary class="footer-summary">Company</summary>
+          <ul class="footer-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+          </ul>
+        </details>
+      </div>
+      <div class="legal">
+        <details class="footer-details">
+          <summary class="footer-summary">Legal</summary>
+          <ul class="footer-list">
+            <li>Cookies</li>
+            <li>Privacy</li>
+            <li>Terms of Services</li>
+          </ul>
+        </details>
+      </div>
+      <hr class="footer-hr" />
+      <div class="copyright">
+        <p>&copy2024 All right reserved</p>
+      </div>
+    </footer>
+    <footer class="footer-desktop">
+      <div class="top-footer">
+        <div class="footer-nav">
+          <ul>
+            <li><strong>Company</strong></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+          </ul>
+        </div>
+        <div class="legal">
+          <ul>
+            <li><strong>Legal</strong></li>
+            <li>Cookies</li>
+            <li>Privacy</li>
+            <li>Terms of Services</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="bottom-footer">
+        <div class="copyright">
+          <p>&copy;2024 All right reserved</p>
+        </div>
+        <div class="socials">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-dribbble"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/facts.js"></script>
+    <script src="./js/tabs.js"></script>
+  </body>
+</html>
