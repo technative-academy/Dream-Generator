@@ -30,7 +30,11 @@ form {
 @media only screen and (min-width: 1000px) {
   .contact {
     flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
     justify-content: space-around;
+    align-items: center;
+    column-gap: 20px;
   }
 
   .map-container {
@@ -42,6 +46,10 @@ form {
     margin-top: 3;
     align-items: center;
   }
+
+  /* .contact-form {
+    margin-left: 400px;
+  } */
 }
 
 .contact-head {
