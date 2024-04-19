@@ -20,6 +20,7 @@
 .menu-title::before {
   content: "Menu";
   padding: 5px;
+  font-weight: bold;
 }
 
 .menu-title {
@@ -36,6 +37,28 @@
 
 .navbar-item {
   color: var(--cta-bg);
+}
+
+a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background: currentColor;
+  transition: width 0.4s ease-out;
+}
+
+a:hover::after {
+  width: 100%;
 }
 
 /* desktop styling for logo and nav bar */
@@ -65,5 +88,13 @@
 
   .nav-container-mobile {
     display: none;
+  }
+
+  a {
+    padding-bottom: 5px;
+  }
+
+  a::after {
+    height: 2px;
   }
 }
