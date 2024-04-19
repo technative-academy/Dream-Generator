@@ -63,6 +63,10 @@
   .legal {
     text-align: end;
   }
+
+  .socials i {
+    margin-left: 5px;
+  }
 }
 
 /* 
