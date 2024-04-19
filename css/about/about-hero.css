@@ -1,0 +1,6 @@
+.about-us-container {
+  background-color: var(--bg-header);
+  padding-bottom: 0;
+  margin-bottom: 0;
+  height: 200px;
+}
