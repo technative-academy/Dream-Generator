@@ -1,22 +1,22 @@
 .logo-img {
-	width: 10%;
+  width: 10%;
 }
 
-.sponsors-container{
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 30px;
-	
+.sponsors-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .logos {
-	display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-.sponsors-container p{
-	margin-bottom: 20px;
-	margin-top: 20px;
+.sponsors-container p {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-

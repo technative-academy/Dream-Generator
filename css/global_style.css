@@ -10,6 +10,7 @@
 
 @import url(about/company-description.css);
 @import url(about/contact-form.css);
+@import url(about/about-hero.css);
 
 @font-face {
   font-family: "Inter";
