@@ -5,26 +5,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 200px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  border-bottom: 2px solid #e1e1e4;
 }
 
 .hero-img {
+  display: block;
   width: 400px;
-  padding-bottom: 50px;
   border-radius: 10px;
 }
 
 /* hero desktop styling */
 @media (min-width: 768px) {
-  hero-container {
+  .hero-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    position: relative;
+    height: 400px;
+    margin-bottom: 300px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
   }
 
   .hero-img {
     width: 600px;
     border-radius: 10px;
+    position: absolute;
+    bottom: -350px;
   }
 }
 
