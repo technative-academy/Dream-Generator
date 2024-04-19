@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
+  background-color: var(--bg-header);
+  border-bottom: 1px solid var(--bg-header);
 }
 
 .logo {
@@ -15,6 +17,27 @@
   display: none;
 }
 
+.menu-title::before {
+  content: "Menu";
+  padding: 5px;
+}
+
+.menu-title {
+  list-style: none;
+}
+
+.navbar-link {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.navbar-item {
+  color: var(--cta-bg);
+}
+
 /* desktop styling for logo and nav bar */
 @media (min-width: 768px) {
   .nav-container-desktop {
@@ -23,6 +46,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: var(--bg-header);
   }
 
   .logo {
@@ -31,6 +55,7 @@
 
   .navbar-link {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     align-items: center;

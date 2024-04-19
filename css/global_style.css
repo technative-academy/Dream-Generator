@@ -110,24 +110,11 @@ input {
   color: var(--cta-text-color);
 } */
 
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: var(--heading-text-color);
-}
-a:hover {
-  text-decoration: none;
-  color: var(--heading-text-color);
-}
-a:focus {
-  text-decoration: none;
-  color: var(--heading-text-color);
-}
+a,
+a:visited,
 a:hover,
+a:focus,
 a:active {
   text-decoration: none;
-  color: var(--heading-text-color);
+  color: inherit;
 }
