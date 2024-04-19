@@ -4,3 +4,9 @@
   margin-bottom: 0;
   height: 200px;
 }
+
+@media (max-width: 768px) {
+  .about-us-container > p {
+    width: 50%;
+  }
+}
