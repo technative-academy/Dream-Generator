@@ -3,8 +3,8 @@
   flex-direction: column;
   text-align: center;
   gap: 10px;
-  padding: 5px 25px;
-  margin-bottom: 75px;
+  padding: 40px 25px;
+  margin-bottom: 95px;
 }
 
 .review-title {
@@ -15,6 +15,7 @@
   opacity: 0.8;
   margin: 25px 10px;
   line-height: 2;
+  padding-bottom: 40px;
 }
 
 .reviews {
@@ -25,6 +26,14 @@
 
 .individual-reviews {
   width: 100px;
+  cursor: pointer;
+  padding-bottom: 8px;
+}
+
+.individual-reviews:hover {
+  opacity: 0.8;
+  background: var(--cta-text-color);
+  padding-bottom: 8px;
 }
 
 .review-name,
@@ -40,8 +49,16 @@
   margin-top: 15px;
 }
 
-.purple-top {
+.currently-selected-review-button {
   border-top: 5px solid var(--cta-bg);
+}
+
+.review-quote {
+  display: none;
+}
+
+.currently-selected-review {
+  display: block;
 }
 
 /* Desktop sizes */
