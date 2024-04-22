@@ -104,3 +104,11 @@ label {
   margin-bottom: 20px;
   text-align: left;
 }
+
+/* Iframe edits */
+
+@media (min-width: 768px) {
+  .iframe {
+    width: 500px;
+  }
+}
