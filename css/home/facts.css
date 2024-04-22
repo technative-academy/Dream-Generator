@@ -33,6 +33,7 @@
     justify-content: space-around;
     padding-top: 100px;
     padding-bottom: 100px;
+    row-gap: 80px;
   }
 
   .facts-container {
