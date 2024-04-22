@@ -39,14 +39,14 @@ figcaption {
   text-align: left;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   .about-company {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
 
-    justify-content: space-around;
+    justify-content: space-between;
 
     margin-left: 150px;
     margin-right: 150px;
