@@ -15,6 +15,12 @@ input::placeholder {
   font-size: 14px; /* Adjust font size as needed */
 }
 
+.input-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
 .search {
   width: 80%; /* Set the width of the input */
   border: solid 2px #e1e1e4;
@@ -42,16 +48,6 @@ img {
   display: none;
 }
 
-.product-container {
-  display: flex;
-  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
-  justify-content: space-between; /* Distribute items evenly along the main axis */
-}
-
-.product-container {
-  margin-left: 20px;
-  margin-right: 20px;
-}
 .product-image {
   display: block;
   margin-left: auto;
@@ -59,12 +55,32 @@ img {
   width: 60%;
 }
 
-/* .product:nth-child(n + 7) {
-    display: none;
-  } */
+.product-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 5px 25px;
+}
+
+.product img {
+  width: 90%;
+}
 
 .product-container p {
   text-align: left;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product h3 {
+  font-size: 24px;
 }
 
 .show-more-btn {
@@ -86,9 +102,13 @@ img {
     width: 25%;
   }
   .product-container {
-    margin-left: 300px;
-    margin-right: 300px;
+    flex-flow: row wrap;
+    margin: 20px 350px;
   }
+
+  /* .product {
+    width: 500px;
+  } */
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -101,11 +121,6 @@ img {
 
   .show-more-btn {
     width: 30%;
-  }
-
-  .product-container {
-    margin-left: 100px;
-    margin-right: 100px;
   }
 }
 
@@ -122,9 +137,14 @@ img {
 }
 
 .product {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .product-description {
   font-style: italic;
+}
+
+.product p,
+.product h3 {
+  margin: 10px 45px 0px 45px;
 }
