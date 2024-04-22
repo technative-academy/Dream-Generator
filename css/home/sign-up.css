@@ -51,8 +51,8 @@ h2 {
   padding-bottom: 10px;
 }
 
-p {
-  text-align: center;
+.address {
+  text-align: left;
   line-height: 30px;
 }
 
