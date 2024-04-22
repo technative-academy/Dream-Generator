@@ -27,6 +27,19 @@ form {
   margin-top: 50px;
 }
 
+.input {
+  border: solid 2px #e1e1e4;
+  width: 100%;
+  padding: 12px 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.input:focus {
+  border: solid 2px rgb(78, 90, 101);
+}
+
 @media only screen and (min-width: 1000px) {
   .contact {
     flex-direction: row;
@@ -103,4 +116,12 @@ label {
 .adress p {
   margin-bottom: 20px;
   text-align: left;
+}
+
+/* Iframe edits */
+
+@media (min-width: 768px) {
+  .iframe {
+    width: 500px;
+  }
 }

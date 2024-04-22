@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,82 +15,116 @@
 	<link rel="icon" type="image/x-ico" href="/assets/favicon/favicon.ico">
 </head>
 
-<body>
-	<div class="nav-container-desktop white-container">
-		<img class="logo" src="./assets/images/logo.png" />
-		<nav class="navbar">
-			<ul class="navbar-link">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="products.html">Products</a></li>
-			</ul>
-		</nav>
-	</div>
-	<div class="nav-container-mobile white-container">
-		<img class="logo" src="./assets/images/logo.png" />
-		<details>
-			<summary class="menu-title">
-				<i class="fa-solid fa-bars"></i>
-			</summary>
-			<nav class="navbar">
-				<ul class="navbar-link">
-					<li><a href="index.html" class="navbar-item">Home</a></li>
-					<li><a href="about.html" class="navbar-item">About</a></li>
-					<li><a href="products.html" class="navbar-item">Products</a></li>
-				</ul>
-			</nav>
-		</details>
-	</div>
-	<div class="hero-container white-container">
-		<h1>Dreamland turns fantasy into reality.</h1>
-		<p>Dream big, dream bold, dream with us at Dreamland.</p>
-		<img class="hero-img" src="./assets/images/header.jpg" />
-	</div>
-	<main>
-		<section class="sponsors-container">
-			<p><strong> HERE ARE OUR SPONSORS</strong></p>
-			<div class="logos">
-				<img class="logo-img" src="./assets/images/sponsors-pictures/google.png" />
-				<img class="logo-img" src="./assets/images/sponsors-pictures/airbnb_logo.png" />
-				<img class="logo-img" src="./assets/images/sponsors-pictures/facebook.png" />
-				<img class="logo-img" src="./assets/images/sponsors-pictures/hubspot1.png" />
-				<img class="logo-img" src="./assets/images/sponsors-pictures/slack_logo1.png" />
-			</div>
-		</section>
-		<section class="services gray-container">
-			<div class="display-services" id="display-services">
-				<div class="service-details service-details-aliens">
-					<img src="./assets/images/tabs-images/aliens-tea.jpg" alt="Aliens sipping tea" />
-					<figcaption>Aliens sipping tea</figcaption>
-				</div>
-				<div class="service-details service-details-candy">
-					<img src="./assets/images/tabs-images/candy-cane.jpg" alt="Candy cane trail" />
-					<figcaption>Candy cane trail</figcaption>
-				</div>
-				<div class="service-details service-details-dragon">
-					<img src="./assets/images/tabs-images/dragon.jpg" alt="Dinner with a dragon" />
-					<figcaption>Dinner with a dragon</figcaption>
-				</div>
-				<div class="service-details service-details-spacerocket">
-					<img src="./assets/images/tabs-images/spacerocket.jpg" alt="spacerocket" />
-					<figcaption>A journey through space</figcaption>
-				</div>
-			</div>
-			<div class="service-buttons">
-				<button class="services-buttons" id="aliens" value="aliens">
-					Tea with aliens!
-				</button>
-				<button class="services-buttons" id="candy" value="candy">
-					Candy Cane trail!
-				</button>
-				<button class="services-buttons" id="dragon" value="dragon">
-					Befriending a dragon
-				</button>
-				<button class="services-buttons" id="spacerocket" value="spacerocket">
-					An adventure through space!
-				</button>
-			</div>
-		</section>
+  <body>
+    <div class="nav-container-desktop white-container">
+      <img class="logo" src="./assets/images/logo.png" />
+      <nav class="navbar">
+        <ul class="navbar-link">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="nav-container-mobile white-container">
+      <img class="logo" src="./assets/images/logo.png" />
+      <details>
+        <summary class="menu-title">
+          <i class="fa-solid fa-bars"></i>
+        </summary>
+        <nav class="navbar">
+          <ul class="navbar-link">
+            <li><a href="index.html" class="navbar-item">Home</a></li>
+            <li><a href="about.html" class="navbar-item">About</a></li>
+            <li><a href="products.html" class="navbar-item">Products</a></li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+    <div class="hero-container white-container">
+      <h1>Dreamland turns fantasy into reality.</h1>
+      <p>Dream big, dream bold, dream with us at Dreamland.</p>
+      <img class="hero-img" src="./assets/images/header.jpg" />
+    </div>
+    <main>
+      <section class="sponsors-container">
+        <p><strong> HERE ARE OUR SPONSORS</strong></p>
+        <div class="logos">
+          <img
+            class="logo-img"
+            src="./assets/images/sponsors-pictures/google.png"
+          />
+          <img
+            class="logo-img"
+            src="./assets/images/sponsors-pictures/airbnb_logo.png"
+          />
+          <img
+            class="logo-img"
+            src="./assets/images/sponsors-pictures/facebook.png"
+          />
+          <img
+            class="logo-img"
+            src="./assets/images/sponsors-pictures/hubspot1.png"
+          />
+          <img
+            class="logo-img"
+            src="./assets/images/sponsors-pictures/slack_logo1.png"
+          />
+        </div>
+      </section>
+      <section class="services gray-container">
+        <div class="display-services" id="display-services">
+          <div
+            class="service-details service-details-aliens currently-selected-service"
+          >
+            <img
+              src="./assets/images/tabs-images/aliens-tea.jpg"
+              alt="Aliens sipping tea"
+            />
+            <figcaption>Aliens sipping tea</figcaption>
+          </div>
+          <div class="service-details service-details-candy">
+            <img
+              src="./assets/images/tabs-images/candy-cane.jpg"
+              alt="Candy cane trail"
+            />
+            <figcaption>Candy cane trail</figcaption>
+          </div>
+          <div class="service-details service-details-dragon">
+            <img
+              src="./assets/images/tabs-images/dragon.jpg"
+              alt="Dinner with a dragon"
+            />
+            <figcaption>Dinner with a dragon</figcaption>
+          </div>
+          <div class="service-details service-details-spacerocket">
+            <img
+              src="./assets/images/tabs-images/spacerocket.jpg"
+              alt="spacerocket"
+            />
+            <figcaption>A journey through space</figcaption>
+          </div>
+        </div>
+        <div class="service-buttons">
+          <button
+            class="services-buttons currently-selected-button"
+            id="aliens"
+            value="aliens"
+          >
+            Tea with aliens!
+          </button>
+          <button class="services-buttons" id="candy" value="candy">
+            Candy Cane trail!
+          </button>
+          <button class="services-buttons" id="dragon" value="dragon">
+            Befriending a dragon
+          </button>
+          <button class="services-buttons" id="spacerocket" value="spacerocket">
+            An adventure through space!
+          </button>
+        </div>
+      </section>
+
 
 		<section class="fact-container">
 			<h2 class="fact-header">Some facts about the company</h2>
@@ -207,3 +242,4 @@
 </body>
 
 </html>
+
