@@ -65,7 +65,11 @@
   }
 
   .socials i {
-    margin-left: 5px;
+    margin-left: 15px;
+    background-color: var(--body-text-color);
+    color: white;
+    padding: 8px;
+    border-radius: 100%;
   }
 }
 
