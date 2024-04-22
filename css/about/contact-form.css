@@ -40,6 +40,10 @@ form {
   border: solid 2px rgb(78, 90, 101);
 }
 
+.input::placeholder {
+  padding-left: 20px;
+}
+
 @media only screen and (min-width: 1000px) {
   .contact {
     flex-direction: row;
@@ -55,7 +59,7 @@ form {
     flex-direction: column;
   }
 
-  .adress {
+  .address {
     margin-top: 3;
     align-items: center;
   }
@@ -113,7 +117,7 @@ label {
   margin-bottom: 20px;
 }
 
-.adress p {
+.address p {
   margin-bottom: 20px;
   text-align: left;
 }
