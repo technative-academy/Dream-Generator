@@ -47,6 +47,44 @@
 }
 
 .fact-header {
-
   margin-top: 100px;
+}
+
+/* Icon styles for facts section */
+
+.icon-facts-container {
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.icon-container-fa-lightbulb {
+  background-color: #ec87e4;
+}
+
+.icon-container-fa-helmet-safety {
+  background-color: #a18cf2;
+}
+
+.icon-container-fa-star {
+  background-color: #328eea;
+}
+
+.icon-container-fa-people-group {
+  background-color: #0089cd;
+}
+
+.icon-container-fa-leaf {
+  background-color: #007fa1;
+}
+
+.icon-container-fa-globe {
+  background-color: #00706f;
 }
