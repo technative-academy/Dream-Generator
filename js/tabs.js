@@ -1,51 +1,9 @@
-const tabs = [
-  {
-    image: "aliens-tea",
-    caption: "Enjoy a sip with the extra-terrestrial!",
-    value: "aliens",
-  },
-  {
-    image: "candy-cane",
-    caption: "Walk through this sweet woods!",
-    value: "candy",
-  },
-  {
-    image: "dragon",
-    caption: "A dragon",
-    value: "dragon",
-  },
-  {
-    image: "spacerocket",
-    caption: "A space adventure! Fly with Pete today!",
-    value: "aliens",
-  },
-];
-
-// Button elements from index.html
-// const aliens = document.getElementById("aliens");
-// const candy = document.getElementById("candy");
-// const dragon = document.getElementById("dragon");
-// const spacerocket = document.getElementById("spacerocket");
-
 const displayServices = document.getElementById("display-services");
-
-// Function to add event listener
-
-// function createTab(object) {
-//   // Create elements
-//   const container = document.createElement("div");
-//   const image = document.createElement("img");
-//   const caption = document.createElement("figcaption");
-
-//   // Appending image and caption to container
-//   container.appendChild(image);
-//   container.appendChild(caption);
-// }
-
 const serviceButtons = document.querySelectorAll(".services-buttons");
 
 serviceButtons.forEach(addButtonListener);
 
+// Add event listener to each tab
 function addButtonListener(serviceButtonElement) {
   serviceButtonElement.addEventListener("click", serviceButtonClick);
 }
@@ -58,8 +16,10 @@ function serviceButtonClick(event) {
 
   let clickedElement = document.querySelector(elementSelector);
 
+  // Removes currently selected class from all buttons
   serviceButtons.forEach(updateClickedButtonState);
 
+  // Removes currently selected class from all details
   const serviceDetails = document.querySelectorAll(".service-details");
   serviceDetails.forEach(updateServiceDetails);
 
