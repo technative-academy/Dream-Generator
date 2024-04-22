@@ -103,33 +103,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// // //Show the number of products
-// let products = document.querySelectorAll('.product')
-// // //here is the span where we display nnumber of products
-// // // let productsDisplay = document.querySelector('.display-products-number');
-
-// let numberOfProducts = products.length;
-
-// // document.querySelector('.display-products-number').textContent = ` ${products.length} products found`;
-
-
-// function updateProductCount() {
-// 	const filterValue = document.querySelector('.search').value.toLowerCase();
-// 	const products = document.querySelectorAll('.product');
-// 	//const productArray = Array.from(products);
-
-// 	let count = 0;
-
-// 	products.forEach(product => {
-// 		const productName = product.dataset.name.toLowerCase();
-// 		if (productName.includes(filterValue)) {
-// 			count++;
-// 		}
-// 	});
-
-// 	document.querySelector('display-products-number').textContent = `Number of products displayed: ${count}`;
-// }
-
-// // Call the function and listen for input changes
-// updateProductCount();
-// document.querySelector('.search').addEventListener('input', updateProductCount);
