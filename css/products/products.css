@@ -1,0 +1,76 @@
+.input-section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input::placeholder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	pointer-events: none; /* Ensure placeholder text does not interfere with textarea interactions */
+	font-family: "Inter";
+	font-size: 14px; /* Adjust font size as needed */
+  }
+  
+.search{
+	text-align: center;
+	width: 80%; /* Set the width of the input */
+	  
+}
+
+img {
+	width:30%;
+}
+
+
+.hide {
+	display: none;
+  }
+
+  .product-container{
+	display: flex;
+	flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+	justify-content: space-between; /* Distribute items evenly along the main axis */
+  }
+
+  .product-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+  }
+
+  /* .product:nth-child(n + 7) {
+    display: none;
+  } */
+
+  .product-container p {
+	text-align: left;
+  }
+
+  @media only screen and (min-width: 1000px) {
+
+	.product {
+		width: calc(33.33% - 10px); /* Three products per row */
+	  }
+	  .search{
+		width: 25%; 
+		  
+	}
+  }
+
+  @media only screen and (min-width: 600px) and (max-width:1000px) {
+
+	.product {
+		width: calc(50% - 10px); /* Three products per row */
+	  }
+	  .search{
+		width: 60%; 
+		  
+	}
+	
+  }
+
