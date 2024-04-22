@@ -44,10 +44,6 @@ img {
   width: 30%;
 }
 
-.hide {
-  display: none;
-}
-
 .product-image {
   display: block;
   margin-left: auto;
@@ -147,4 +143,8 @@ img {
 .product p,
 .product h3 {
   margin: 10px 45px 0px 45px;
+}
+
+.hide {
+  display: none;
 }
