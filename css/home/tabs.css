@@ -1,18 +1,13 @@
 .services-buttons {
-	width: 100%;
-	margin-left: 0;
-	border: none;
-	font-weight: bold;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	cursor: pointer;
-	background-color: var(--cta-text-color);
-	border-bottom: solid 1px #E1E1E4;;
-  }
-
-.currently-selected-button {
-  background-color: var(--cta-bg);
-  color: var(--cta-text-color);
+  width: 100%;
+  margin-left: 0;
+  border: none;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  cursor: pointer;
+  background-color: var(--cta-text-color);
+  border-bottom: solid 1px #e1e1e4;
 }
 
 .service-details {
@@ -43,8 +38,6 @@
   flex-direction: column;
 }
 
-
-
 .services-buttons:hover {
   opacity: 0.8;
 }
@@ -73,5 +66,14 @@
     padding-bottom: 40px;
     text-align: center;
     border-radius: 15px;
+    width: 60%;
   }
+}
+
+.currently-selected-button {
+  background-color: #f6f3fc;
+  color: black;
+  border-left: 5px solid #7a4dff;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
