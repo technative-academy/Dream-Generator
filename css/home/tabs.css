@@ -1,3 +1,15 @@
+.services-buttons {
+	width: 100%;
+	margin-left: 0;
+	border: none;
+	font-weight: bold;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	cursor: pointer;
+	background-color: var(--cta-text-color);
+	border-bottom: solid 1px #E1E1E4;;
+  }
+
 .currently-selected-button {
   background-color: var(--cta-bg);
   color: var(--cta-text-color);
@@ -31,15 +43,7 @@
   flex-direction: column;
 }
 
-.services-buttons {
-  width: 100%;
-  margin-left: 0;
-  border: none;
-  font-weight: bold;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  cursor: pointer;
-}
+
 
 .services-buttons:hover {
   opacity: 0.8;
@@ -65,8 +69,8 @@
 
   .services-buttons {
     font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
     border-radius: 15px;
   }
