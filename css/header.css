@@ -61,6 +61,10 @@ a:hover::after {
   width: 100%;
 }
 
+.logo-link::after {
+  display: none;
+}
+
 /* desktop styling for logo and nav bar */
 @media (min-width: 768px) {
   .nav-container-desktop {

@@ -42,6 +42,7 @@ form {
 
 .email-link::after {
   display: none;
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -59,7 +60,7 @@ form {
     flex-direction: column;
   }
 
-  .adress {
+  .address {
     margin-top: 3;
     align-items: center;
   }
@@ -117,7 +118,7 @@ label {
   margin-bottom: 20px;
 }
 
-.adress p {
+.address p {
   margin-bottom: 20px;
   text-align: left;
 }
