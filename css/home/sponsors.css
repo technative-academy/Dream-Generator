@@ -23,6 +23,11 @@
 }
 
 @media (min-width: 768px) {
+  .sponsors-container p {
+    margin-top: 90px;
+    margin-bottom: 10px;
+  }
+
   .logo-img {
     width: 150px;
   }
