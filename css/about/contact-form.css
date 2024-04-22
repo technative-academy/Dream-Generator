@@ -40,6 +40,10 @@ form {
   border: solid 2px rgb(78, 90, 101);
 }
 
+.email-link::after {
+  display: none;
+}
+
 @media only screen and (min-width: 1000px) {
   .contact {
     flex-direction: row;
